@@ -2,6 +2,8 @@
 
 ## Summary
 
+### Useful Links: [APM settings in Kibana](https://www.elastic.co/docs/reference/kibana/configuration-reference/apm-settings)
+
 In the Kibana Observability APM app, opening `CAVIAR Haystack API → Transactions → GET EquityVol/GetEquityDividend` and picking a trace sample renders a waterfall whose root/entry transaction is `caviar-calculate-risk` — not the selected `GET EquityVol/GetEquityDividend`. A banner on the waterfall reports:
 
 > The number of items in this trace is **135,224** which is higher than the current limit of **2,000**. Please increase the limit via `xpack.apm.ui.maxTraceItems` to see the full trace.
